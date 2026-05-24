@@ -1,0 +1,501 @@
+timestamp,trace_id,service,endpoint,method,status_code,latency_ms,severity,error_message,host,region
+2026-05-20T04:49:26,1e46b63d-69eb-44e1-aa25-b612c58d692d,cart-api,/remove-cart,GET,200,234,INFO,,cart-api-pod-5,ap-south-1
+2026-05-20T05:58:46,46a299e0-4223-435a-96e3-8fac12273d67,cart-api,/remove-cart,POST,200,88,INFO,,cart-api-pod-1,us-east-1
+2026-05-17T16:26:27,505286f0-795b-498a-9f2b-1e24b1e6014e,auth-api,/login,POST,200,191,INFO,,auth-api-pod-1,eu-west-1
+2026-05-18T08:32:51,9b573836-822a-46aa-a71e-0b7f51007d59,product-api,/search,GET,200,107,INFO,,product-api-pod-1,us-east-1
+2026-05-22T23:41:55,6dd23a71-759c-4af3-b8b8-e1308a31cbb6,product-api,/search,POST,200,205,INFO,,product-api-pod-4,ap-south-1
+2026-05-21T16:21:15,3dd20b68-daa9-42d3-98d7-ec39706a9834,payment-api,/process-payment,POST,200,235,INFO,,payment-api-pod-3,ap-south-1
+2026-05-19T13:03:17,6c252059-65f9-4698-9e66-90407a01d5b4,auth-api,/logout,POST,200,121,INFO,,auth-api-pod-4,ap-south-1
+2026-05-22T17:24:34,e2ed542d-6d58-4713-bae7-ba249899e61e,cart-api,/add-cart,GET,200,73,INFO,,cart-api-pod-4,eu-west-1
+2026-05-19T09:23:42,8fda1452-332f-4812-8d43-9dadebf18b57,product-api,/search,GET,200,54,INFO,,product-api-pod-5,ap-south-1
+2026-05-18T18:19:50,98177786-a394-4e4e-aecb-eeb4cfa90d90,order-api,/order-history,GET,200,159,INFO,,order-api-pod-2,us-east-1
+2026-05-24T07:01:08,8c1131ff-7e57-407d-ab6b-29d12ed422a2,cart-api,/get-cart,GET,200,73,INFO,,cart-api-pod-1,eu-west-1
+2026-05-23T18:46:53,2cf59328-2950-43df-a2f1-30af22f9d433,auth-api,/logout,POST,200,125,INFO,,auth-api-pod-3,ap-south-1
+2026-05-17T17:20:43,81b8e012-db2a-4d9b-adc5-dcf5f3f707d9,payment-api,/process-payment,POST,200,223,INFO,,payment-api-pod-4,eu-west-1
+2026-05-19T10:07:54,ca48f888-8f97-4d33-ad5a-48aa739c93a1,payment-api,/payment-status,POST,400,104,WARN,Invalid request payload,payment-api-pod-4,ap-south-1
+2026-05-24T05:58:58,31151e57-1174-4658-83e2-5b003f7c7e92,cart-api,/remove-cart,POST,200,247,INFO,,cart-api-pod-1,us-east-1
+2026-05-18T21:14:23,00ed222b-7860-4177-ba71-f5a0e2b4d5df,product-api,/search,GET,200,92,INFO,,product-api-pod-2,ap-south-1
+2026-05-21T22:13:08,8248a0cd-7f3e-4480-af1f-49d66e6e2939,order-api,/order-history,GET,200,80,INFO,,order-api-pod-2,us-east-1
+2026-05-21T02:57:47,598375a1-177e-4b1a-b8e2-c4fd43ff3cde,order-api,/order-history,POST,200,225,INFO,,order-api-pod-4,eu-west-1
+2026-05-20T01:01:57,26735b2d-b917-4ee8-bbaf-3837aa0774bf,order-api,/create-order,POST,429,557,WARN,Rate limit exceeded,order-api-pod-3,us-east-1
+2026-05-21T10:07:29,ce9cff0d-3392-42a5-8ec7-2785cf88a9dc,product-api,/product/{id},GET,200,116,INFO,,product-api-pod-4,eu-west-1
+2026-05-19T00:08:14,34750690-50ec-4968-a582-35c23e2823af,cart-api,/get-cart,POST,400,254,WARN,Invalid request payload,cart-api-pod-4,ap-south-1
+2026-05-18T12:38:49,85cf72c5-907d-4219-94e6-e84abdfe6a85,cart-api,/get-cart,POST,200,165,INFO,,cart-api-pod-4,eu-west-1
+2026-05-23T21:36:01,c2f4c2e2-b28f-46ab-b3e5-3cf59a5f9c65,auth-api,/logout,GET,200,246,INFO,,auth-api-pod-1,us-east-1
+2026-05-20T15:31:34,9cbd226f-0342-4c6b-8056-d953103b4e0b,auth-api,/validate-token,GET,200,122,INFO,,auth-api-pod-1,ap-south-1
+2026-05-22T14:31:00,528f52af-113d-47a7-92d2-1a01e0795a52,order-api,/order-history,GET,200,83,INFO,,order-api-pod-4,us-east-1
+2026-05-17T14:02:41,0282b6c6-0d14-412b-8e1d-93b37f169c4d,order-api,/create-order,GET,200,140,INFO,,order-api-pod-2,eu-west-1
+2026-05-19T11:18:46,903475d2-01d9-4bff-9643-a5d8c17f340d,order-api,/order-history,POST,200,190,INFO,,order-api-pod-2,us-east-1
+2026-05-23T05:32:51,ef6e3eed-edc9-4184-8fcd-a80c58c01fac,product-api,/products,POST,200,249,INFO,,product-api-pod-5,eu-west-1
+2026-05-21T20:17:58,ee6db4cd-6e98-4c46-9422-e8926b93d5ed,cart-api,/get-cart,POST,200,94,INFO,,cart-api-pod-3,us-east-1
+2026-05-17T18:23:14,82da2438-be67-4063-b278-f9f2e3e140fa,auth-api,/validate-token,POST,200,50,INFO,,auth-api-pod-4,eu-west-1
+2026-05-19T23:54:28,95d741d7-bd66-4bfa-afc8-f5e0f9529924,cart-api,/get-cart,POST,200,175,INFO,,cart-api-pod-5,ap-south-1
+2026-05-21T21:52:12,85e25df7-de99-4d50-b87d-aff16392de4c,product-api,/search,GET,200,90,INFO,,product-api-pod-3,us-east-1
+2026-05-19T10:56:35,b34d0d25-c351-497c-92ff-f4beef1de898,order-api,/create-order,GET,200,147,INFO,,order-api-pod-2,us-east-1
+2026-05-20T10:17:36,b2ce890b-0350-4656-9a58-fb3b533fd1cd,order-api,/create-order,POST,200,213,INFO,,order-api-pod-4,eu-west-1
+2026-05-19T09:42:08,4ee4682c-6481-43be-af1e-ffdfe470aabe,order-api,/create-order,GET,200,107,INFO,,order-api-pod-1,us-east-1
+2026-05-23T16:52:47,d50bc42e-d934-4b91-9c1d-55f9255df6ae,payment-api,/payment-status,POST,401,294,WARN,Unauthorized access,payment-api-pod-5,us-east-1
+2026-05-18T10:06:34,c99b98fe-cc4b-400a-9909-bf3018c2b4e2,auth-api,/login,GET,201,211,INFO,,auth-api-pod-4,us-east-1
+2026-05-19T01:29:41,098cc8fe-226e-45b9-832b-26b9746427cc,auth-api,/login,GET,200,149,INFO,,auth-api-pod-5,us-east-1
+2026-05-17T13:32:27,7b5cca17-9399-4986-96ca-e11dd5d46a46,cart-api,/get-cart,GET,200,56,INFO,,cart-api-pod-4,eu-west-1
+2026-05-18T18:39:37,6077547e-b99c-4732-bc55-ff3e1eb7e77b,cart-api,/add-cart,POST,504,9409,CRITICAL,Database timeout,cart-api-pod-5,ap-south-1
+2026-05-18T00:23:28,2c06572e-d3f1-49ef-8f8f-2f777dec37f7,payment-api,/process-payment,GET,200,73,INFO,,payment-api-pod-2,eu-west-1
+2026-05-21T07:50:15,fe1ab216-ce69-44e4-a42f-d4f138ce1c47,product-api,/search,GET,200,82,INFO,,product-api-pod-2,eu-west-1
+2026-05-17T12:55:45,fe699d78-d5a4-48e8-91e8-2c5e4c3080f9,cart-api,/remove-cart,GET,200,102,INFO,,cart-api-pod-1,ap-south-1
+2026-05-17T15:45:39,db95d484-25bc-40f5-b81f-e52a5bed3be4,auth-api,/login,GET,200,203,INFO,,auth-api-pod-5,eu-west-1
+2026-05-23T23:51:53,b400350c-ccfd-4eb7-bf20-b8dc2e510e35,payment-api,/process-payment,GET,404,190,WARN,Resource not found,payment-api-pod-3,us-east-1
+2026-05-19T02:35:53,f2df4a0b-4bac-4e84-afc4-be88be3968e3,payment-api,/payment-status,POST,401,242,WARN,Authentication failed,payment-api-pod-5,eu-west-1
+2026-05-19T00:14:01,fffce1fe-7c8f-46ec-9ef0-db799db380d0,cart-api,/add-cart,GET,200,74,INFO,,cart-api-pod-4,eu-west-1
+2026-05-22T12:23:55,a8541844-50e1-465b-b3f9-c3f3d5214d59,auth-api,/login,GET,200,145,INFO,,auth-api-pod-3,us-east-1
+2026-05-20T12:32:04,414ce262-7383-4bff-8f27-11fa80471886,product-api,/products,POST,200,245,INFO,,product-api-pod-2,ap-south-1
+2026-05-19T15:44:24,3158e4ae-368f-470b-ae97-5b138783f293,product-api,/search,GET,200,145,INFO,,product-api-pod-3,ap-south-1
+2026-05-18T00:40:54,c56c878d-9af9-4823-be04-da230b1c3254,order-api,/order-history,GET,200,228,INFO,,order-api-pod-3,eu-west-1
+2026-05-19T15:07:04,02a41881-95d6-449a-96a9-ef10cfaf3e9f,cart-api,/add-cart,GET,200,115,INFO,,cart-api-pod-1,ap-south-1
+2026-05-21T02:18:12,e68d5666-38fe-4267-8291-52259c694192,cart-api,/get-cart,POST,200,208,INFO,,cart-api-pod-1,eu-west-1
+2026-05-17T19:29:57,5f20a598-da43-4f26-b672-0e94258fadcd,payment-api,/process-payment,POST,200,130,INFO,,payment-api-pod-5,eu-west-1
+2026-05-18T02:09:03,e2434c25-d55c-46f1-9ac1-c630abe13dc9,order-api,/create-order,GET,200,140,INFO,,order-api-pod-4,us-east-1
+2026-05-21T14:01:45,a61941a6-aedc-440f-86cb-62f2c50cdbd3,cart-api,/get-cart,GET,200,185,INFO,,cart-api-pod-4,eu-west-1
+2026-05-23T23:57:25,e0c6abcf-82c0-45f7-8618-3208667d7289,payment-api,/process-payment,POST,401,236,WARN,Invalid authentication token,payment-api-pod-2,eu-west-1
+2026-05-21T17:09:08,ca681f09-37ea-4742-ba9d-5f1972011b3b,auth-api,/logout,POST,201,85,INFO,,auth-api-pod-5,eu-west-1
+2026-05-20T05:15:25,58aa751e-a800-4497-9c0d-cc1ed84c8161,payment-api,/payment-status,POST,200,66,INFO,,payment-api-pod-4,eu-west-1
+2026-05-18T04:53:39,468e11d3-974c-4b78-92b1-fd7496aaab46,product-api,/product/{id},POST,200,146,INFO,,product-api-pod-1,eu-west-1
+2026-05-21T02:47:22,85b7b731-2999-4d4e-9dc0-a3cc97eab339,auth-api,/logout,GET,200,146,INFO,,auth-api-pod-2,ap-south-1
+2026-05-22T18:41:32,eaa9b3a2-5a2b-4b93-ba16-fd7114f63aea,auth-api,/login,POST,201,194,INFO,,auth-api-pod-1,us-east-1
+2026-05-23T07:14:27,4c55be05-4281-49a5-8cfb-6345a784325a,auth-api,/validate-token,POST,404,118,WARN,Resource not found,auth-api-pod-4,eu-west-1
+2026-05-20T00:16:27,324ae463-a8ca-4a52-985e-6b029524aba9,order-api,/create-order,GET,200,105,INFO,,order-api-pod-3,eu-west-1
+2026-05-21T23:57:00,878ee7e4-eb3d-4f33-8e70-02a674d0d6f6,cart-api,/get-cart,POST,200,83,INFO,,cart-api-pod-3,ap-south-1
+2026-05-23T14:22:08,dfe80e20-19f3-40f2-9ce4-b9367f96e3ab,payment-api,/process-payment,POST,200,128,INFO,,payment-api-pod-4,us-east-1
+2026-05-18T21:28:13,a6b30cc7-116b-4db3-a260-b914c0d3400b,order-api,/create-order,GET,200,157,INFO,,order-api-pod-4,us-east-1
+2026-05-21T23:52:10,4ac91a34-af47-4528-9250-cb3f08f4dfbf,order-api,/create-order,GET,200,243,INFO,,order-api-pod-1,us-east-1
+2026-05-21T01:38:50,69319761-0b57-4ba1-8f4a-ddd9ddc29a5a,auth-api,/validate-token,GET,200,72,INFO,,auth-api-pod-3,ap-south-1
+2026-05-22T00:59:34,001b4c71-c59f-4240-bc54-5a53b9dff3b2,auth-api,/login,GET,200,88,INFO,,auth-api-pod-2,ap-south-1
+2026-05-21T04:14:26,4fa26a20-95f1-48ed-9eff-5751732e189b,order-api,/order-history,GET,200,123,INFO,,order-api-pod-1,eu-west-1
+2026-05-21T23:50:51,0bfe7aac-1704-4f78-9c18-3f374fc040ce,product-api,/product/{id},POST,200,217,INFO,,product-api-pod-4,us-east-1
+2026-05-19T16:44:16,f1049259-c5fa-4e0c-a87e-b60e51d5a699,payment-api,/payment-status,POST,200,164,INFO,,payment-api-pod-2,eu-west-1
+2026-05-19T05:51:39,09c32f52-ad61-4484-944d-329431e03c2c,order-api,/order-history,GET,500,1204,ERROR,Unexpected backend failure,order-api-pod-2,eu-west-1
+2026-05-19T10:40:20,d234ab2a-495b-47b4-80e7-e2bd23f3c6c0,auth-api,/logout,POST,201,123,INFO,,auth-api-pod-2,ap-south-1
+2026-05-20T01:39:24,5ee2208d-d02b-441d-a385-5f944e524437,product-api,/search,GET,200,189,INFO,,product-api-pod-2,us-east-1
+2026-05-19T08:30:01,3af43362-c0a7-45b1-bb65-70ddf6f2cbbd,cart-api,/add-cart,GET,200,68,INFO,,cart-api-pod-3,ap-south-1
+2026-05-17T17:50:01,e42ad773-13df-443e-a22e-90d3be5d516b,cart-api,/add-cart,POST,504,8666,CRITICAL,Request processing timeout,cart-api-pod-3,us-east-1
+2026-05-21T00:34:12,823fa49c-5a58-4bd3-a8f2-49bf369ef93e,auth-api,/logout,GET,200,199,INFO,,auth-api-pod-2,eu-west-1
+2026-05-21T10:21:15,d458123f-fbb6-472f-9f5e-180ff88a7864,cart-api,/add-cart,POST,200,201,INFO,,cart-api-pod-4,us-east-1
+2026-05-22T00:32:34,5536c2c6-31a2-407e-b47c-c491ebf468fa,order-api,/order-history,POST,200,71,INFO,,order-api-pod-5,us-east-1
+2026-05-23T08:15:22,e3f46e34-8954-4789-b5de-b0c860238787,cart-api,/get-cart,POST,404,180,WARN,API endpoint does not exist,cart-api-pod-2,ap-south-1
+2026-05-23T23:56:15,0af01c59-9e14-4b89-8e56-4cc240d651a3,product-api,/products,POST,200,129,INFO,,product-api-pod-5,ap-south-1
+2026-05-21T21:06:25,feb3c760-0fba-4d50-af12-9549c3a9cd0e,auth-api,/validate-token,GET,200,197,INFO,,auth-api-pod-5,eu-west-1
+2026-05-19T22:55:22,15c976a2-ed7b-402a-a465-c8ec96f9a61c,payment-api,/process-payment,POST,200,172,INFO,,payment-api-pod-5,ap-south-1
+2026-05-19T14:08:00,7e99f3d4-f036-486c-852b-750d5e2c4d8c,product-api,/products,GET,200,138,INFO,,product-api-pod-5,eu-west-1
+2026-05-23T17:36:13,0504bfc3-1e24-4ab3-8a9c-339690229c90,order-api,/create-order,GET,200,126,INFO,,order-api-pod-5,us-east-1
+2026-05-19T06:44:21,82630a20-515b-458a-9fa3-a6b8461b536f,product-api,/product/{id},POST,200,100,INFO,,product-api-pod-5,eu-west-1
+2026-05-17T07:19:38,1eeddc00-9a46-49f5-8e27-c7fba91aa37f,payment-api,/payment-status,GET,200,62,INFO,,payment-api-pod-4,us-east-1
+2026-05-19T18:30:42,7502401c-1aef-48db-8b08-f356055e4400,order-api,/create-order,POST,200,98,INFO,,order-api-pod-2,ap-south-1
+2026-05-21T11:15:11,7f9e8e04-c432-4204-86cb-fc0181ca3703,order-api,/order-history,GET,200,106,INFO,,order-api-pod-4,ap-south-1
+2026-05-19T23:29:42,3bbf1264-d045-46bb-a99c-326e8e3e4148,order-api,/create-order,POST,200,138,INFO,,order-api-pod-5,ap-south-1
+2026-05-19T21:24:38,3f03ee1d-46db-4acc-b11a-86104e794927,payment-api,/process-payment,POST,200,114,INFO,,payment-api-pod-2,eu-west-1
+2026-05-22T15:45:59,19a2c10f-f8a1-411e-a05e-a9b3db706bc1,product-api,/product/{id},GET,200,155,INFO,,product-api-pod-1,eu-west-1
+2026-05-20T06:34:52,58afaad9-766b-4175-ab44-8a39b9bc2397,product-api,/products,GET,200,247,INFO,,product-api-pod-5,ap-south-1
+2026-05-24T05:14:33,00b2e426-4349-48ea-981b-cdb121570c57,product-api,/product/{id},POST,200,129,INFO,,product-api-pod-1,ap-south-1
+2026-05-20T07:50:32,152edd19-3b1d-4eb7-910d-bed5d63c364c,order-api,/create-order,GET,200,230,INFO,,order-api-pod-5,eu-west-1
+2026-05-20T12:26:26,cd228808-5f3c-4a64-882a-20de1ed314a5,auth-api,/logout,GET,201,93,INFO,,auth-api-pod-1,ap-south-1
+2026-05-23T08:43:40,d723a9ac-9cad-4779-818f-e772339a8b03,product-api,/products,GET,200,86,INFO,,product-api-pod-4,ap-south-1
+2026-05-17T10:19:53,362092a9-9c94-4140-bf2c-e6c2c4c4d2bc,payment-api,/payment-status,POST,200,214,INFO,,payment-api-pod-3,eu-west-1
+2026-05-23T19:22:40,18995e87-6f8b-4dcd-9ece-d0bb9da2e932,product-api,/search,GET,200,167,INFO,,product-api-pod-2,ap-south-1
+2026-05-19T15:02:14,0437b823-c8d9-404b-967e-4130c0d3f496,cart-api,/get-cart,POST,200,132,INFO,,cart-api-pod-5,us-east-1
+2026-05-23T03:59:03,0bbe103e-87f0-4b00-ab47-8c08598b32d3,order-api,/order-history,POST,401,277,WARN,Invalid authentication token,order-api-pod-4,ap-south-1
+2026-05-20T19:32:51,ce31a51f-e4cb-4b64-a5d1-c6c089528603,product-api,/product/{id},GET,201,147,INFO,,product-api-pod-3,us-east-1
+2026-05-21T06:14:39,d61c2561-29de-459c-92d8-5d47ec7abcac,cart-api,/get-cart,GET,400,153,WARN,Invalid request payload,cart-api-pod-5,eu-west-1
+2026-05-19T16:57:34,dd5f4218-5451-47d0-9b39-85d89a9d8807,product-api,/products,POST,200,86,INFO,,product-api-pod-2,ap-south-1
+2026-05-18T21:09:16,4616741a-a138-4ebf-ad18-95669aba141f,cart-api,/add-cart,GET,500,2989,ERROR,Application crash detected,cart-api-pod-3,eu-west-1
+2026-05-18T21:15:57,df000190-97a0-4dbc-a541-1dfecb9681ef,auth-api,/validate-token,POST,200,115,INFO,,auth-api-pod-2,us-east-1
+2026-05-20T21:47:22,80476a0b-3d11-4cda-919b-2c8b9ea43dd4,order-api,/create-order,POST,200,229,INFO,,order-api-pod-3,us-east-1
+2026-05-18T09:22:56,82ccb849-24a8-4466-b5d7-305ecc50fa70,order-api,/order-history,POST,403,123,WARN,Insufficient permissions,order-api-pod-5,ap-south-1
+2026-05-19T08:34:46,84582bf9-c695-448f-a2c7-c280cb6a30fa,cart-api,/get-cart,GET,403,378,WARN,Insufficient permissions,cart-api-pod-5,ap-south-1
+2026-05-17T15:48:07,f9728885-ddff-4f1b-a9b6-07f66cb8e9e3,cart-api,/add-cart,GET,500,2201,ERROR,Unexpected backend failure,cart-api-pod-4,us-east-1
+2026-05-22T08:57:29,aa728b95-4b7d-4759-afed-1e0919e041cf,product-api,/products,GET,200,193,INFO,,product-api-pod-1,eu-west-1
+2026-05-17T10:24:55,abe966e6-27f5-4f1d-98f8-4218f03ac428,order-api,/create-order,GET,200,135,INFO,,order-api-pod-3,eu-west-1
+2026-05-18T10:39:58,0aebb813-9229-4c50-a361-16a42a5cfd94,cart-api,/remove-cart,GET,403,105,WARN,User role not authorized,cart-api-pod-5,eu-west-1
+2026-05-19T22:31:16,0ee36753-61cc-4b09-b35f-16d64dc32719,payment-api,/payment-status,GET,200,234,INFO,,payment-api-pod-1,us-east-1
+2026-05-19T02:08:47,ffdc41f2-0788-4367-a5a2-c86425d59e48,auth-api,/logout,GET,200,164,INFO,,auth-api-pod-4,ap-south-1
+2026-05-17T17:49:03,e9505f9a-2326-487c-8a37-1ccb969a211a,cart-api,/get-cart,GET,502,3340,ERROR,Dependency service failure,cart-api-pod-3,ap-south-1
+2026-05-21T02:04:51,4cf73f4e-af70-486b-970d-31d00cfbf9d4,cart-api,/get-cart,GET,200,66,INFO,,cart-api-pod-3,ap-south-1
+2026-05-23T21:41:17,68c0aa54-46ad-48a1-8ef2-46f92d31648e,order-api,/create-order,GET,200,212,INFO,,order-api-pod-4,ap-south-1
+2026-05-23T00:41:19,c29bb9d3-6c87-43be-a835-5ef97bd97b71,order-api,/create-order,POST,200,200,INFO,,order-api-pod-1,ap-south-1
+2026-05-22T09:08:44,24f18149-1c95-403a-bb7b-d8a718fb347c,order-api,/order-history,GET,200,51,INFO,,order-api-pod-1,eu-west-1
+2026-05-23T01:19:20,9dc1bb4d-3c54-4de6-b625-9e8750723278,payment-api,/payment-status,POST,200,86,INFO,,payment-api-pod-4,ap-south-1
+2026-05-21T04:04:02,ed1234e4-ca8d-4ab2-a561-b4be4fd42839,auth-api,/logout,POST,200,245,INFO,,auth-api-pod-1,ap-south-1
+2026-05-21T08:58:52,25d40d26-6f33-441c-8a8c-3f6c444557c9,product-api,/products,GET,502,1821,ERROR,Dependency service failure,product-api-pod-2,us-east-1
+2026-05-20T04:32:07,63dd8317-7fe0-442f-ac50-dc30c8a3240b,cart-api,/get-cart,POST,401,197,WARN,Unauthorized access,cart-api-pod-4,us-east-1
+2026-05-18T09:47:17,a4688a74-a4b7-4cb2-9d7d-a89dee3b89ec,product-api,/search,GET,200,82,INFO,,product-api-pod-2,ap-south-1
+2026-05-22T17:22:37,a0555c75-1867-4f97-9efe-e7efce87939b,payment-api,/payment-status,GET,200,109,INFO,,payment-api-pod-3,us-east-1
+2026-05-18T00:15:32,1dbcdb06-9fbb-4dd5-a83c-d8e0b734410b,product-api,/products,POST,404,173,WARN,Requested item unavailable,product-api-pod-1,ap-south-1
+2026-05-21T12:13:22,a48f5be8-7c9f-4559-8523-edc38cdcfeb7,cart-api,/add-cart,GET,200,67,INFO,,cart-api-pod-5,eu-west-1
+2026-05-19T06:14:45,fe560373-63bc-4c44-9536-5a071f05b4ae,cart-api,/get-cart,GET,200,216,INFO,,cart-api-pod-3,eu-west-1
+2026-05-20T19:59:27,77f2815a-5fed-4893-a341-051b19f4d01b,order-api,/order-history,GET,200,223,INFO,,order-api-pod-1,us-east-1
+2026-05-21T18:48:42,f5665de4-4db2-4177-b829-a5b059c401fc,auth-api,/validate-token,GET,200,249,INFO,,auth-api-pod-4,eu-west-1
+2026-05-23T05:10:46,3e4b998e-81f9-42a2-a4d7-570cf7c2526b,product-api,/products,POST,200,117,INFO,,product-api-pod-5,eu-west-1
+2026-05-19T15:04:40,59269b80-1d02-4323-86e3-01464b7a28a7,order-api,/create-order,POST,200,187,INFO,,order-api-pod-4,eu-west-1
+2026-05-19T16:00:58,e7a50b86-9cf4-4876-85d8-8f4ea5953b43,payment-api,/process-payment,POST,200,54,INFO,,payment-api-pod-1,eu-west-1
+2026-05-17T21:40:35,043a9732-ef2f-4ccb-86ab-11fe40e247b2,auth-api,/login,POST,503,4040,CRITICAL,Temporary maintenance outage,auth-api-pod-4,eu-west-1
+2026-05-19T15:46:21,79ff683f-c3aa-478d-a274-265f08c02ff0,product-api,/products,GET,200,67,INFO,,product-api-pod-5,us-east-1
+2026-05-20T22:42:30,c4a93ce2-cc99-4279-b22c-c21362ee1edd,product-api,/search,POST,200,207,INFO,,product-api-pod-5,us-east-1
+2026-05-20T19:53:30,d8de2baa-9589-4ff8-9651-de72f68093d3,order-api,/create-order,POST,200,99,INFO,,order-api-pod-3,eu-west-1
+2026-05-23T14:31:21,fcc45645-6101-4219-a739-fecff275dd2b,product-api,/product/{id},GET,401,226,WARN,Unauthorized access,product-api-pod-2,eu-west-1
+2026-05-18T12:44:52,86c03475-98fd-4882-942c-ccd0e0f05d24,auth-api,/login,GET,200,248,INFO,,auth-api-pod-4,us-east-1
+2026-05-19T17:26:03,a8dd8fe0-394c-4130-b933-f69c9989237b,cart-api,/add-cart,POST,200,130,INFO,,cart-api-pod-2,ap-south-1
+2026-05-22T10:35:28,ba189f37-3cf3-4d51-abb1-b7c85489a371,product-api,/products,GET,200,226,INFO,,product-api-pod-2,ap-south-1
+2026-05-17T23:50:38,57b36d0f-7e16-42a9-a4e3-2c064ae4c517,product-api,/product/{id},GET,200,88,INFO,,product-api-pod-2,eu-west-1
+2026-05-22T13:05:32,b75b63c0-887e-491a-b8fd-ae9498a13f20,payment-api,/payment-status,GET,404,114,WARN,Requested item unavailable,payment-api-pod-1,us-east-1
+2026-05-20T19:12:51,d672df0e-0f50-4ab8-aa3f-68ad08d6d631,payment-api,/payment-status,POST,200,80,INFO,,payment-api-pod-1,us-east-1
+2026-05-17T18:29:07,b8eef341-bea8-4a0e-8504-b10ada93804c,payment-api,/process-payment,GET,429,1129,WARN,Request throttled,payment-api-pod-3,us-east-1
+2026-05-18T22:47:58,159159d2-7663-4b3d-b968-792e06c03045,payment-api,/payment-status,GET,200,234,INFO,,payment-api-pod-5,us-east-1
+2026-05-17T23:06:30,22f84192-6fcb-4329-8431-fee89e9db8dc,order-api,/order-history,GET,200,102,INFO,,order-api-pod-2,ap-south-1
+2026-05-22T07:36:10,391af9f8-4c73-48c1-9f01-f9103a88c228,payment-api,/process-payment,GET,200,85,INFO,,payment-api-pod-4,ap-south-1
+2026-05-21T23:14:28,b0b6382b-a9db-4446-ad22-20466d0cb766,cart-api,/remove-cart,GET,200,206,INFO,,cart-api-pod-1,eu-west-1
+2026-05-23T23:22:12,f320575c-c23b-4a88-8029-983d6197621c,cart-api,/remove-cart,GET,201,292,INFO,,cart-api-pod-4,ap-south-1
+2026-05-17T16:26:56,ef31e1b0-91f6-4407-8aaf-576cb803532d,auth-api,/login,GET,200,221,INFO,,auth-api-pod-3,us-east-1
+2026-05-18T10:59:59,acab15ad-2194-46db-ae8f-4e8fcd9aaaff,auth-api,/validate-token,POST,200,164,INFO,,auth-api-pod-3,ap-south-1
+2026-05-23T03:52:50,6f1e1d4d-8708-4822-9a04-d826c4474c65,cart-api,/add-cart,POST,429,442,WARN,Request throttled,cart-api-pod-1,eu-west-1
+2026-05-22T03:38:33,60ec5189-8f28-4c3a-804b-f599394a6ebe,auth-api,/login,GET,200,57,INFO,,auth-api-pod-3,ap-south-1
+2026-05-22T12:42:48,0d97bc2e-1101-4fc8-bfdf-e72a9c72bed5,product-api,/search,POST,200,119,INFO,,product-api-pod-5,us-east-1
+2026-05-23T04:52:26,040dbb94-1137-43e3-95a7-6b0280b98a10,product-api,/product/{id},GET,201,255,INFO,,product-api-pod-3,eu-west-1
+2026-05-23T03:08:04,e212ee9f-f7e8-4c48-93bd-2fd659fb1db2,auth-api,/login,GET,200,210,INFO,,auth-api-pod-2,us-east-1
+2026-05-20T14:58:11,1767bba1-cabe-4587-a71e-b564bc0facdd,cart-api,/remove-cart,GET,429,835,WARN,Request throttled,cart-api-pod-1,ap-south-1
+2026-05-20T06:50:59,0d15587f-5fa3-41ff-b4b5-a16d7b78ee52,auth-api,/validate-token,POST,200,94,INFO,,auth-api-pod-1,ap-south-1
+2026-05-23T17:29:16,e1450094-823b-413a-8983-ef76dc9efe20,order-api,/order-history,POST,200,211,INFO,,order-api-pod-1,ap-south-1
+2026-05-21T11:17:52,51e90ad1-b22e-465c-9bcd-ab5dca7363e5,order-api,/create-order,GET,200,52,INFO,,order-api-pod-1,us-east-1
+2026-05-17T15:00:39,908322b6-df62-439d-81c1-68b42103d113,order-api,/order-history,GET,200,167,INFO,,order-api-pod-5,ap-south-1
+2026-05-21T16:34:20,ca318b70-85c2-4837-b149-25f7cf3252ab,product-api,/products,POST,200,203,INFO,,product-api-pod-3,us-east-1
+2026-05-18T19:59:53,a3693655-3520-4f10-acc2-d5c20a3ab125,payment-api,/payment-status,GET,200,103,INFO,,payment-api-pod-5,eu-west-1
+2026-05-23T17:58:05,ac1f1d8a-170c-4be4-85e6-f23d8ea26f9a,payment-api,/payment-status,GET,201,194,INFO,,payment-api-pod-5,ap-south-1
+2026-05-21T15:53:05,caee14b6-56a0-4a5f-b24d-31a6a56c9bd0,order-api,/create-order,GET,200,85,INFO,,order-api-pod-4,eu-west-1
+2026-05-20T12:24:13,7bf4fe09-7dd1-4126-a3db-c766468af1f3,auth-api,/login,GET,200,137,INFO,,auth-api-pod-5,ap-south-1
+2026-05-20T12:03:34,980c16c4-c9a5-4285-b63b-d93587d609ac,payment-api,/process-payment,POST,400,397,WARN,Malformed request body,payment-api-pod-4,us-east-1
+2026-05-20T14:06:48,c52dd904-25fa-4ddd-a2e3-f216222bf8bb,order-api,/create-order,POST,200,247,INFO,,order-api-pod-2,us-east-1
+2026-05-20T12:13:15,e80eadb2-a1df-4844-957e-d171132a5107,payment-api,/payment-status,GET,404,77,WARN,API endpoint does not exist,payment-api-pod-3,eu-west-1
+2026-05-22T11:02:15,fb3251a8-d125-4be2-9247-8d612428b561,order-api,/order-history,POST,200,222,INFO,,order-api-pod-2,eu-west-1
+2026-05-23T22:11:16,0f7aa034-2228-4fb3-ade3-c258c3cc0f36,cart-api,/remove-cart,GET,200,51,INFO,,cart-api-pod-4,us-east-1
+2026-05-17T15:47:02,99823ee8-b05a-4855-a95a-3c81b746f872,payment-api,/process-payment,POST,200,201,INFO,,payment-api-pod-1,ap-south-1
+2026-05-17T23:49:12,82f87afa-0af0-4d96-a716-48ff59f4df0f,payment-api,/payment-status,POST,200,218,INFO,,payment-api-pod-1,ap-south-1
+2026-05-19T11:29:38,5473a771-c6a8-47fc-87c5-02aa3f513e63,auth-api,/login,POST,200,89,INFO,,auth-api-pod-1,eu-west-1
+2026-05-20T13:06:06,459f227b-c005-4bad-a748-8a799012912b,auth-api,/logout,POST,200,91,INFO,,auth-api-pod-4,us-east-1
+2026-05-24T02:38:43,413ae424-df16-4378-a7b5-609162b380b7,cart-api,/get-cart,POST,400,307,WARN,Malformed request body,cart-api-pod-5,ap-south-1
+2026-05-20T05:33:46,ea113f93-c95e-4b0a-812c-f910d04cb573,product-api,/search,POST,200,104,INFO,,product-api-pod-2,eu-west-1
+2026-05-19T03:34:17,bdffdb55-9744-49b5-b0a7-3aa93c887ba0,cart-api,/remove-cart,POST,200,223,INFO,,cart-api-pod-5,ap-south-1
+2026-05-23T22:40:16,7c89549b-2969-45c3-b43a-fb7a5e315928,auth-api,/login,POST,200,67,INFO,,auth-api-pod-4,ap-south-1
+2026-05-17T23:32:42,8305c00f-bcff-406b-aa75-c81c77334e4c,product-api,/products,POST,200,173,INFO,,product-api-pod-4,eu-west-1
+2026-05-18T22:39:06,6845c2b1-5887-4850-a6a1-249e9d8f24d2,auth-api,/logout,POST,200,94,INFO,,auth-api-pod-5,us-east-1
+2026-05-23T10:23:08,d0c473b8-f314-4b5d-bf24-d9d04cecc666,cart-api,/get-cart,GET,200,193,INFO,,cart-api-pod-5,ap-south-1
+2026-05-24T05:35:04,332d7883-aaa2-46b2-a8d1-476dd4b40237,cart-api,/add-cart,GET,200,87,INFO,,cart-api-pod-4,ap-south-1
+2026-05-23T18:18:44,f7404e16-4151-4314-b779-b49432074658,payment-api,/process-payment,GET,200,101,INFO,,payment-api-pod-1,us-east-1
+2026-05-19T09:03:44,45e5367c-6eb0-4526-bcf2-0e11f53f1ede,payment-api,/process-payment,POST,504,7048,CRITICAL,Gateway timeout,payment-api-pod-3,ap-south-1
+2026-05-22T10:38:36,7f4cf7be-7177-4f3e-8842-0755e3c3f6f2,auth-api,/login,POST,200,186,INFO,,auth-api-pod-4,us-east-1
+2026-05-18T18:41:21,7dcf2725-8e06-4f23-8c38-f44367f69216,order-api,/order-history,GET,200,134,INFO,,order-api-pod-1,eu-west-1
+2026-05-24T00:07:18,e5106d4e-0e77-4f08-887f-0ca1560f5802,auth-api,/login,POST,200,83,INFO,,auth-api-pod-5,ap-south-1
+2026-05-24T04:49:35,b842103f-1167-4fdf-8260-d136ce6e68ea,order-api,/order-history,GET,500,2779,ERROR,Internal server error,order-api-pod-1,ap-south-1
+2026-05-18T08:12:10,20600546-d7fd-4d7f-8df6-c7a700287d57,auth-api,/logout,GET,200,180,INFO,,auth-api-pod-2,eu-west-1
+2026-05-18T21:01:37,c8b72a5f-20cc-4c99-923f-7b8c69643170,order-api,/order-history,POST,200,222,INFO,,order-api-pod-5,ap-south-1
+2026-05-24T06:54:19,fbdf10c4-8d49-48c4-bb9a-04c1a00c026b,cart-api,/remove-cart,GET,200,182,INFO,,cart-api-pod-3,us-east-1
+2026-05-18T14:50:26,ae7ad31e-48ff-4d8d-9a02-f33c6a74578e,product-api,/products,GET,200,53,INFO,,product-api-pod-2,eu-west-1
+2026-05-19T08:59:10,d244bfc9-3882-45fd-92fb-5fa849d32b1d,cart-api,/get-cart,POST,200,181,INFO,,cart-api-pod-3,ap-south-1
+2026-05-22T15:48:24,46fe0218-ead4-4b3d-82ac-9f8196f0a153,payment-api,/process-payment,POST,200,67,INFO,,payment-api-pod-4,ap-south-1
+2026-05-19T12:43:54,7eb8589d-4a70-4dfa-acfc-b4752361736f,cart-api,/remove-cart,POST,200,112,INFO,,cart-api-pod-4,eu-west-1
+2026-05-23T01:45:29,bbf8dfcd-4e7c-4efa-b20c-9e14a78906b9,cart-api,/remove-cart,POST,200,157,INFO,,cart-api-pod-5,ap-south-1
+2026-05-21T13:45:29,fc07521a-6119-4e7b-a015-abfbcb7b7e6b,order-api,/order-history,GET,400,268,WARN,Invalid input format,order-api-pod-1,us-east-1
+2026-05-17T10:17:26,8028a840-9689-4729-9fdb-23ef721bb436,cart-api,/remove-cart,GET,200,79,INFO,,cart-api-pod-1,us-east-1
+2026-05-19T15:37:30,19c2f612-9517-4559-8992-cab2e3793aba,auth-api,/validate-token,POST,400,305,WARN,Malformed request body,auth-api-pod-5,eu-west-1
+2026-05-20T00:14:15,96485131-ec6d-467c-8786-ad916fd1e096,cart-api,/add-cart,POST,200,192,INFO,,cart-api-pod-4,eu-west-1
+2026-05-24T04:43:26,9235de10-6c40-4623-a800-748856174584,payment-api,/payment-status,POST,201,134,INFO,,payment-api-pod-5,eu-west-1
+2026-05-20T19:17:15,b861d4d2-4aef-4260-9de8-4585829cf548,product-api,/product/{id},POST,200,239,INFO,,product-api-pod-5,us-east-1
+2026-05-19T02:09:54,fb3d794b-52a4-4b52-9201-cbcaadda9ff5,cart-api,/get-cart,POST,200,99,INFO,,cart-api-pod-3,us-east-1
+2026-05-20T03:49:41,0906ed40-9add-4c02-a21d-ff18e0c3f79c,cart-api,/remove-cart,POST,200,193,INFO,,cart-api-pod-5,us-east-1
+2026-05-23T11:28:08,1b32b3b9-b539-4c8a-a793-325a9039366a,payment-api,/payment-status,GET,200,129,INFO,,payment-api-pod-3,us-east-1
+2026-05-17T21:49:38,573cdc45-6109-4216-8066-9f5513769eda,order-api,/create-order,GET,200,160,INFO,,order-api-pod-5,eu-west-1
+2026-05-18T10:01:10,cebf744f-8532-4850-a265-4d6f51132f7b,product-api,/products,POST,200,137,INFO,,product-api-pod-5,eu-west-1
+2026-05-22T01:49:13,b532aae6-9641-4254-aff9-37bfb392645f,cart-api,/add-cart,GET,200,69,INFO,,cart-api-pod-1,us-east-1
+2026-05-23T12:34:28,a4ffc173-f8c8-44ec-91bb-92d05ffe3568,order-api,/order-history,POST,200,116,INFO,,order-api-pod-4,ap-south-1
+2026-05-18T17:39:04,79586f76-1653-44dd-bbee-48d4adce1a13,auth-api,/validate-token,GET,200,201,INFO,,auth-api-pod-2,ap-south-1
+2026-05-19T07:10:33,0839d1a0-ce49-480d-a8ed-566b49fc5469,cart-api,/add-cart,GET,200,144,INFO,,cart-api-pod-2,eu-west-1
+2026-05-21T09:45:48,69b287d9-7ce7-467e-9f18-3e5b80d05081,payment-api,/process-payment,GET,200,59,INFO,,payment-api-pod-2,us-east-1
+2026-05-23T04:52:51,2a0d1e97-a704-4db9-9963-9604c79ff3d7,payment-api,/payment-status,GET,200,159,INFO,,payment-api-pod-5,eu-west-1
+2026-05-19T14:48:34,ec741420-5d81-490c-8eed-fff9f1932914,auth-api,/validate-token,GET,200,183,INFO,,auth-api-pod-2,ap-south-1
+2026-05-23T08:03:57,0ae85bed-de90-4fc6-8d8d-9bddb861292a,payment-api,/payment-status,POST,200,206,INFO,,payment-api-pod-4,eu-west-1
+2026-05-19T03:57:05,12d54a94-7d0e-4ae9-9468-a6b2d17e2a53,payment-api,/payment-status,POST,200,236,INFO,,payment-api-pod-1,us-east-1
+2026-05-19T04:22:06,f7c673ab-c70c-441b-87df-e3f0fbf432ce,auth-api,/login,GET,400,169,WARN,Malformed request body,auth-api-pod-3,us-east-1
+2026-05-19T13:38:18,c2d12e4e-7f32-4b28-b19f-8f34c6c6075d,cart-api,/remove-cart,GET,500,2352,ERROR,Unexpected backend failure,cart-api-pod-2,eu-west-1
+2026-05-18T09:14:20,81db89f8-bbe5-49e1-9e3e-0c63eeef2b5f,product-api,/search,POST,400,386,WARN,Bad request,product-api-pod-1,ap-south-1
+2026-05-17T21:29:11,fec9530f-d82c-4221-a3da-9ab6d0692994,order-api,/create-order,POST,429,459,WARN,Request throttled,order-api-pod-1,us-east-1
+2026-05-21T23:18:19,9d54a0fc-d673-47bf-9af4-6069910bdcdd,cart-api,/get-cart,POST,200,207,INFO,,cart-api-pod-1,ap-south-1
+2026-05-23T05:46:07,e9781330-38dd-45ab-870f-232f144ee298,order-api,/order-history,POST,200,177,INFO,,order-api-pod-3,us-east-1
+2026-05-21T22:37:37,ba00f445-cd5d-4113-972d-d805efe226de,order-api,/order-history,POST,200,60,INFO,,order-api-pod-3,eu-west-1
+2026-05-23T03:46:13,f9c566be-9563-44c8-87df-9cb9f47faae1,product-api,/product/{id},POST,200,184,INFO,,product-api-pod-3,ap-south-1
+2026-05-21T10:32:53,912483bf-3b19-4595-a66c-03ccd65cca41,cart-api,/remove-cart,GET,200,199,INFO,,cart-api-pod-5,eu-west-1
+2026-05-21T12:40:03,95e15635-406a-4ae1-9a47-a7f9fe1544a1,payment-api,/payment-status,GET,200,122,INFO,,payment-api-pod-3,eu-west-1
+2026-05-22T02:13:16,a0fbefcc-08f0-423c-a294-cddb4d5f0d5e,auth-api,/logout,GET,200,116,INFO,,auth-api-pod-4,us-east-1
+2026-05-19T21:31:42,356ecd81-d3d3-4fa4-a234-ca90828232dd,cart-api,/remove-cart,POST,200,153,INFO,,cart-api-pod-2,ap-south-1
+2026-05-20T15:12:56,580f8671-dbeb-478c-b304-d497740ccc79,order-api,/order-history,GET,200,153,INFO,,order-api-pod-4,eu-west-1
+2026-05-20T23:35:31,3253a596-fe54-421a-8d3a-6880b5975c81,order-api,/create-order,GET,200,224,INFO,,order-api-pod-5,ap-south-1
+2026-05-19T23:39:10,914f9880-dc25-421e-80b1-75f35ba1a8ac,cart-api,/remove-cart,POST,200,129,INFO,,cart-api-pod-2,eu-west-1
+2026-05-19T23:43:12,b23583a1-3ac3-45d8-a8b4-914acafa4c90,cart-api,/add-cart,POST,200,184,INFO,,cart-api-pod-5,eu-west-1
+2026-05-22T21:46:46,40b25045-151f-4294-8edc-7b29f832cb94,order-api,/order-history,GET,200,50,INFO,,order-api-pod-3,ap-south-1
+2026-05-18T09:22:07,c448831f-93fe-446e-9f3d-ae07a10618e6,order-api,/order-history,GET,200,231,INFO,,order-api-pod-1,ap-south-1
+2026-05-23T05:01:12,0cf09beb-f7ad-46b5-b8ad-7f514c7160f4,product-api,/product/{id},POST,400,185,WARN,Missing required parameters,product-api-pod-4,us-east-1
+2026-05-20T13:37:35,0135c910-25df-4bd8-b9ed-b90f09558491,cart-api,/add-cart,POST,200,94,INFO,,cart-api-pod-4,us-east-1
+2026-05-21T14:09:54,eb68d706-c8b9-4c27-80a2-fe31d1c64118,order-api,/create-order,GET,201,83,INFO,,order-api-pod-5,eu-west-1
+2026-05-18T20:20:36,fde72d2d-1228-4b9d-9cb7-89bd866f32ea,product-api,/product/{id},POST,500,1227,ERROR,Unexpected backend failure,product-api-pod-4,eu-west-1
+2026-05-22T18:18:19,d54e008d-3519-4214-94eb-db441f0c71c0,payment-api,/payment-status,POST,200,125,INFO,,payment-api-pod-2,eu-west-1
+2026-05-21T14:07:34,c35e7429-afc5-4961-b897-8416171909c0,payment-api,/payment-status,POST,200,158,INFO,,payment-api-pod-3,us-east-1
+2026-05-20T12:20:15,43c8d4d2-71d6-467d-8c00-64b1fe94f4d1,product-api,/product/{id},GET,200,55,INFO,,product-api-pod-5,us-east-1
+2026-05-22T16:14:56,d85de46f-9e93-40a7-b17e-09662ea71954,payment-api,/process-payment,POST,200,224,INFO,,payment-api-pod-4,eu-west-1
+2026-05-18T10:00:50,340fdf99-6a63-4e89-accc-f2f07ec81765,payment-api,/payment-status,POST,200,77,INFO,,payment-api-pod-4,us-east-1
+2026-05-21T04:45:47,a8abb875-9ed3-41a6-a31a-06876ed3aece,product-api,/product/{id},GET,400,382,WARN,Missing required parameters,product-api-pod-1,us-east-1
+2026-05-20T15:45:09,bccc2742-0cb7-41e3-b8b0-066f270b1c42,product-api,/search,POST,200,171,INFO,,product-api-pod-3,ap-south-1
+2026-05-24T05:05:03,ce829de3-34c7-43fd-9d6d-e34fb0de97e2,payment-api,/payment-status,POST,200,204,INFO,,payment-api-pod-3,us-east-1
+2026-05-17T08:38:52,7383d008-5e6d-4bba-a919-f1f155305af6,product-api,/product/{id},GET,200,220,INFO,,product-api-pod-3,ap-south-1
+2026-05-22T06:25:36,690c526a-69d9-4da7-a9cd-3a0667e03606,auth-api,/login,GET,200,163,INFO,,auth-api-pod-5,us-east-1
+2026-05-19T09:06:53,333eb3db-98a5-4208-a0ae-5a755d768ee4,order-api,/order-history,POST,200,100,INFO,,order-api-pod-3,eu-west-1
+2026-05-20T10:04:20,b2970118-8281-425e-b64f-8d83e63eacf5,product-api,/search,POST,200,75,INFO,,product-api-pod-2,eu-west-1
+2026-05-19T05:20:33,e57006c2-dc7d-4b7d-8e03-45bea767e455,cart-api,/add-cart,POST,200,80,INFO,,cart-api-pod-5,us-east-1
+2026-05-20T16:23:42,4a2cfa83-f631-4988-a546-5a46fed00fb0,product-api,/products,POST,200,88,INFO,,product-api-pod-3,eu-west-1
+2026-05-20T07:16:10,1a8a8c33-0202-4772-aba4-9018c08fd28f,cart-api,/add-cart,GET,200,176,INFO,,cart-api-pod-2,us-east-1
+2026-05-17T22:52:38,e8390e8b-7928-413e-96d7-641ad1708235,auth-api,/validate-token,POST,200,103,INFO,,auth-api-pod-1,us-east-1
+2026-05-20T23:35:00,03676128-a9de-4633-b03a-1d24946f448d,auth-api,/login,POST,200,187,INFO,,auth-api-pod-5,us-east-1
+2026-05-21T19:35:11,034c72d3-5415-4183-bf50-15494baee3bb,auth-api,/login,GET,200,106,INFO,,auth-api-pod-4,eu-west-1
+2026-05-24T03:59:46,4e05a380-73e6-48b5-9fc8-275066dd7ff3,product-api,/product/{id},GET,200,62,INFO,,product-api-pod-3,eu-west-1
+2026-05-17T11:59:41,82603ea7-f695-46d6-88a9-f98cca1582d3,product-api,/products,POST,200,227,INFO,,product-api-pod-2,eu-west-1
+2026-05-23T23:04:09,3deeee23-b8f0-4988-b3fa-e72ade568a2f,payment-api,/process-payment,POST,200,161,INFO,,payment-api-pod-3,us-east-1
+2026-05-20T09:40:04,95ce891b-b47c-4ec5-9837-7e7b43caef85,auth-api,/login,POST,500,2521,ERROR,Unhandled server exception,auth-api-pod-1,us-east-1
+2026-05-22T16:46:33,159b7b87-bbae-4692-84f8-eb43d2d001e0,payment-api,/payment-status,GET,200,168,INFO,,payment-api-pod-2,us-east-1
+2026-05-22T13:50:28,f6205ee5-fb55-42d7-9097-4b168a16c1f7,payment-api,/process-payment,GET,200,73,INFO,,payment-api-pod-2,us-east-1
+2026-05-20T04:35:40,a34f50f1-c961-4b41-9337-f6426d247a80,product-api,/product/{id},POST,200,184,INFO,,product-api-pod-1,ap-south-1
+2026-05-20T20:39:20,0ca93c25-a296-495d-b3f9-b77a2abe445a,order-api,/create-order,GET,200,234,INFO,,order-api-pod-3,ap-south-1
+2026-05-23T17:16:06,ade6d6a4-c753-4622-a3f4-c658cda495d6,cart-api,/add-cart,GET,502,2859,ERROR,Upstream service unavailable,cart-api-pod-3,eu-west-1
+2026-05-22T19:37:08,1f6a225b-1074-4858-b08b-07015bff568c,cart-api,/add-cart,GET,200,163,INFO,,cart-api-pod-1,eu-west-1
+2026-05-23T21:50:51,05c785de-aaee-427f-895a-d341177babdc,order-api,/order-history,GET,200,118,INFO,,order-api-pod-3,ap-south-1
+2026-05-19T11:25:15,05df5e30-78ab-4d14-aef9-61ec78e304f4,order-api,/order-history,POST,200,197,INFO,,order-api-pod-4,ap-south-1
+2026-05-17T20:50:29,fe2cc2d7-2449-4834-83bf-3928cad0caca,payment-api,/payment-status,GET,200,141,INFO,,payment-api-pod-3,eu-west-1
+2026-05-17T19:14:48,db039a6a-820a-489b-8a70-1b25b1c46226,auth-api,/validate-token,POST,200,61,INFO,,auth-api-pod-1,eu-west-1
+2026-05-19T15:00:30,a0a8ee98-71ba-427b-af63-75dd716a09d8,product-api,/search,GET,429,381,WARN,Request throttled,product-api-pod-2,ap-south-1
+2026-05-23T02:51:36,bdb678e4-2c62-44d9-a6ac-83f05be8e2fd,order-api,/order-history,POST,401,168,WARN,Unauthorized access,order-api-pod-5,eu-west-1
+2026-05-20T14:01:33,ad83c5ad-8176-4cd0-b99a-d788cfe0c789,auth-api,/logout,GET,401,86,WARN,Invalid authentication token,auth-api-pod-2,eu-west-1
+2026-05-20T03:45:41,5c6a2997-e753-4b82-9df7-8cdab28d1205,cart-api,/remove-cart,GET,200,122,INFO,,cart-api-pod-2,ap-south-1
+2026-05-18T15:00:26,10776505-aead-413f-a0ef-ae0358433f55,cart-api,/get-cart,POST,200,176,INFO,,cart-api-pod-4,us-east-1
+2026-05-21T06:13:59,64bd4a86-622d-4869-8835-1b51b589b5ce,order-api,/order-history,GET,404,59,WARN,Resource not found,order-api-pod-1,ap-south-1
+2026-05-20T18:13:17,7c64d0db-7204-4af1-9b82-2fb29267b2a6,auth-api,/logout,POST,200,209,INFO,,auth-api-pod-3,ap-south-1
+2026-05-20T21:57:30,b178ab9d-2799-4168-aa5a-e1ddc147954f,cart-api,/add-cart,POST,200,167,INFO,,cart-api-pod-1,ap-south-1
+2026-05-20T14:23:35,e5851f08-d623-47ff-b7f1-4340f041c48f,cart-api,/remove-cart,POST,200,212,INFO,,cart-api-pod-3,ap-south-1
+2026-05-22T00:38:53,866874d1-957d-4579-a91b-3112e8c41566,order-api,/create-order,POST,400,304,WARN,Missing required parameters,order-api-pod-1,ap-south-1
+2026-05-23T07:32:10,423cca71-39e0-4fa5-a6bc-4049ff94294e,auth-api,/logout,POST,200,217,INFO,,auth-api-pod-1,ap-south-1
+2026-05-23T13:42:59,590fc47a-00e3-4f62-ad2c-061313924d11,cart-api,/remove-cart,GET,200,238,INFO,,cart-api-pod-5,us-east-1
+2026-05-17T21:41:46,08b9ca73-2bcd-4112-8265-1a8f909eb420,cart-api,/add-cart,GET,201,295,INFO,,cart-api-pod-3,ap-south-1
+2026-05-20T11:05:13,27acc504-2cc3-418a-ae95-8db35eac99ae,cart-api,/remove-cart,POST,200,68,INFO,,cart-api-pod-1,eu-west-1
+2026-05-18T19:58:50,f6a690c8-50dc-4f7b-839b-45193577ea90,auth-api,/logout,POST,200,145,INFO,,auth-api-pod-2,eu-west-1
+2026-05-22T15:38:51,030eecda-79bb-4350-8de7-bf4e440d2c54,cart-api,/add-cart,GET,200,194,INFO,,cart-api-pod-3,ap-south-1
+2026-05-19T21:44:50,443f3934-87c9-439a-b4d2-48fa24ce7bf5,product-api,/search,POST,200,148,INFO,,product-api-pod-3,eu-west-1
+2026-05-19T01:20:36,3f58ff49-ab28-405c-bd81-c1642a46d93e,order-api,/order-history,POST,502,2308,ERROR,Dependency service failure,order-api-pod-5,eu-west-1
+2026-05-20T04:06:25,7ddacee6-1538-41d4-b63f-84a197d270fa,auth-api,/login,POST,500,1798,ERROR,Unhandled server exception,auth-api-pod-1,us-east-1
+2026-05-19T02:15:06,c1a7c002-a56a-4bb6-a432-6e15bbbf42fa,auth-api,/logout,GET,200,152,INFO,,auth-api-pod-5,ap-south-1
+2026-05-23T22:24:23,33214f60-b397-446b-9122-eb8f7e655f78,payment-api,/payment-status,POST,200,157,INFO,,payment-api-pod-3,eu-west-1
+2026-05-19T09:14:58,17d8d834-cdd3-484f-a135-1c9e538a6c6f,cart-api,/add-cart,GET,401,350,WARN,Unauthorized access,cart-api-pod-5,ap-south-1
+2026-05-22T22:56:25,047b58af-d88f-414e-9bc3-d799fa06771e,auth-api,/logout,POST,200,150,INFO,,auth-api-pod-1,eu-west-1
+2026-05-24T01:16:00,aae124aa-44d9-44a6-8002-18cd8234b43a,product-api,/search,POST,200,158,INFO,,product-api-pod-4,ap-south-1
+2026-05-19T20:35:21,2f4cd9ce-8f2c-4752-8874-d09ff04bbc70,product-api,/product/{id},POST,504,6034,CRITICAL,Database timeout,product-api-pod-3,ap-south-1
+2026-05-22T05:13:52,e54ae6b5-78bc-421b-8df4-c4def39d32a1,product-api,/products,GET,200,106,INFO,,product-api-pod-2,eu-west-1
+2026-05-19T07:37:50,8b2c51f6-cae9-4e59-9edf-5644276db993,order-api,/order-history,POST,200,188,INFO,,order-api-pod-1,us-east-1
+2026-05-17T15:44:06,1f89a9e9-5a28-459f-8c83-f05ca8c60841,product-api,/search,POST,200,112,INFO,,product-api-pod-1,eu-west-1
+2026-05-21T12:24:40,07eae7d6-5dee-4da3-8dd5-da6ede26e444,order-api,/create-order,POST,200,70,INFO,,order-api-pod-4,eu-west-1
+2026-05-20T16:05:12,30a2d85f-3570-4aac-a4bd-8fba6424f611,auth-api,/validate-token,POST,200,131,INFO,,auth-api-pod-3,ap-south-1
+2026-05-17T07:07:34,9354d825-532c-4f80-a8df-145f84caa417,auth-api,/login,POST,200,99,INFO,,auth-api-pod-4,us-east-1
+2026-05-21T02:07:38,7bd81aa1-64b4-4150-938f-d9268396d345,cart-api,/remove-cart,POST,401,284,WARN,Authentication failed,cart-api-pod-2,eu-west-1
+2026-05-19T01:09:51,4df0c925-d363-4e49-839c-8da7e310cd1f,cart-api,/get-cart,GET,200,226,INFO,,cart-api-pod-3,us-east-1
+2026-05-20T18:12:14,8de76655-e861-4418-8922-07ced90623dc,auth-api,/login,GET,200,122,INFO,,auth-api-pod-1,us-east-1
+2026-05-19T19:17:36,1d1f1825-4490-429b-809f-557a72ac1b02,product-api,/search,POST,200,90,INFO,,product-api-pod-1,ap-south-1
+2026-05-19T06:48:27,31977872-006f-4318-a766-fc9bac5af94d,auth-api,/logout,GET,200,83,INFO,,auth-api-pod-3,us-east-1
+2026-05-19T15:49:38,c5198a60-d9fd-4962-a25d-ec16322ee5f7,auth-api,/logout,POST,200,171,INFO,,auth-api-pod-3,ap-south-1
+2026-05-18T21:04:48,7ccb10de-53c3-4f53-8251-d16a2f24f3ae,payment-api,/process-payment,GET,404,126,WARN,API endpoint does not exist,payment-api-pod-1,ap-south-1
+2026-05-20T17:09:11,9754100a-8118-4531-b267-859f268a49c9,payment-api,/payment-status,POST,500,1675,ERROR,Application crash detected,payment-api-pod-1,us-east-1
+2026-05-19T11:17:17,01cb30fb-cc83-4dc0-b7d2-a9e923d1149b,payment-api,/payment-status,GET,502,4168,ERROR,Bad gateway,payment-api-pod-1,us-east-1
+2026-05-17T15:24:48,254729e4-c7ec-442d-824b-8a37d6fb9993,cart-api,/add-cart,POST,201,165,INFO,,cart-api-pod-3,eu-west-1
+2026-05-21T14:54:42,ac49ad70-3fcc-4e9a-86e6-bd1877add4f3,product-api,/search,GET,200,189,INFO,,product-api-pod-2,us-east-1
+2026-05-22T18:22:56,1f22ca58-fe21-41fa-9204-43640ef70722,payment-api,/process-payment,GET,200,74,INFO,,payment-api-pod-1,ap-south-1
+2026-05-22T17:41:28,e1293ab5-c2ac-4613-ad46-ab9ba3da4b14,auth-api,/validate-token,POST,201,180,INFO,,auth-api-pod-3,us-east-1
+2026-05-19T17:03:31,12d5d372-beb3-472b-ad67-4df583cd1a76,product-api,/search,GET,200,144,INFO,,product-api-pod-1,eu-west-1
+2026-05-17T23:09:11,badf9baa-bb56-46aa-aee0-b5782037fea7,cart-api,/add-cart,POST,200,114,INFO,,cart-api-pod-1,us-east-1
+2026-05-20T21:56:40,132e8df9-ca58-49db-a856-ff0c45a147ba,order-api,/create-order,POST,200,113,INFO,,order-api-pod-1,eu-west-1
+2026-05-18T09:40:55,163d19ba-2a95-4c40-83d9-02111eb1ccc2,cart-api,/get-cart,POST,200,101,INFO,,cart-api-pod-4,us-east-1
+2026-05-22T20:37:51,3541ef74-3b9f-4634-aa43-4e20b64b73d2,order-api,/create-order,GET,200,205,INFO,,order-api-pod-2,us-east-1
+2026-05-21T12:10:58,42e26c15-af79-435d-92b5-658c68ae2b23,product-api,/products,POST,200,186,INFO,,product-api-pod-1,eu-west-1
+2026-05-22T17:46:39,0e849651-b9d2-4082-a7a9-dade3416ee24,auth-api,/logout,POST,201,299,INFO,,auth-api-pod-3,us-east-1
+2026-05-21T12:41:22,b09263b3-a29c-4ff4-b848-ddda324ffb69,product-api,/products,POST,200,202,INFO,,product-api-pod-4,ap-south-1
+2026-05-18T18:56:18,21c9b09f-71d4-43dd-b150-9e5ec0f4e898,product-api,/products,GET,200,170,INFO,,product-api-pod-2,eu-west-1
+2026-05-19T03:48:50,87434e51-4d8f-49fd-874c-4fe36f058516,product-api,/products,POST,200,178,INFO,,product-api-pod-5,us-east-1
+2026-05-19T18:14:57,3ced0738-e395-4c62-a9d9-7484557dc0f3,order-api,/create-order,GET,200,103,INFO,,order-api-pod-2,us-east-1
+2026-05-24T00:09:39,f6c4e3cd-0f28-430d-8115-be3e99575b76,product-api,/search,GET,401,317,WARN,Token expired,product-api-pod-3,ap-south-1
+2026-05-24T04:53:59,18a619b5-cb9e-4378-9662-540d9e8c4e68,auth-api,/login,GET,200,209,INFO,,auth-api-pod-3,ap-south-1
+2026-05-22T16:17:43,8c14d70f-79cf-4bdb-b966-e4fc5f4afdd2,cart-api,/get-cart,GET,200,161,INFO,,cart-api-pod-2,ap-south-1
+2026-05-22T22:31:34,eae3e5f3-9f8b-4d18-aa3b-8c2130c01fa6,order-api,/create-order,POST,200,56,INFO,,order-api-pod-3,eu-west-1
+2026-05-23T02:03:53,b18ca775-2237-4b09-bca7-40705357a1bf,order-api,/order-history,GET,200,244,INFO,,order-api-pod-1,eu-west-1
+2026-05-19T20:09:26,f8ca8993-661b-4b97-8848-8213d44db5a6,auth-api,/logout,GET,201,255,INFO,,auth-api-pod-2,eu-west-1
+2026-05-20T07:30:58,8482d322-3b5f-4cd4-bd16-ea8d50aa5b7e,auth-api,/validate-token,POST,200,193,INFO,,auth-api-pod-4,us-east-1
+2026-05-21T06:43:26,056013a7-5fa2-4a0b-9354-c1470acbfd28,order-api,/create-order,POST,200,211,INFO,,order-api-pod-5,ap-south-1
+2026-05-18T15:02:02,45abbcab-91a5-48d1-b42d-b49b65af6377,order-api,/order-history,GET,200,180,INFO,,order-api-pod-4,ap-south-1
+2026-05-21T23:30:11,c91fb5d8-9d6d-4851-8d73-3474d3eaf895,payment-api,/payment-status,POST,200,163,INFO,,payment-api-pod-2,ap-south-1
+2026-05-19T03:08:32,2f24e889-4d15-4f4b-a3e3-13321d780d43,auth-api,/logout,POST,200,73,INFO,,auth-api-pod-1,eu-west-1
+2026-05-20T15:24:16,b424af88-31d9-41bf-a426-83e6d484b0ed,order-api,/order-history,POST,502,4305,ERROR,Bad gateway,order-api-pod-3,us-east-1
+2026-05-18T09:32:37,d551f05d-8072-4e9f-bc0c-da18fc45f31b,payment-api,/process-payment,POST,400,392,WARN,Invalid request payload,payment-api-pod-5,eu-west-1
+2026-05-18T05:47:31,6006fe0d-bf10-4044-b735-0366ad1fcbba,cart-api,/get-cart,GET,200,244,INFO,,cart-api-pod-4,ap-south-1
+2026-05-22T18:21:56,acaf5a56-9a07-46a3-b798-42a367f366a7,auth-api,/logout,POST,200,137,INFO,,auth-api-pod-2,eu-west-1
+2026-05-21T09:40:58,2b5e8ba3-05fa-4eb3-9250-78afb8e7cb49,order-api,/order-history,GET,401,240,WARN,Unauthorized access,order-api-pod-1,us-east-1
+2026-05-19T01:03:24,7af1148b-1c52-45bd-ada1-36f57d5d2d02,payment-api,/process-payment,GET,200,102,INFO,,payment-api-pod-5,us-east-1
+2026-05-23T08:45:24,086789bf-5704-4c07-b9b0-b39c86a8b2ff,cart-api,/get-cart,GET,200,143,INFO,,cart-api-pod-5,eu-west-1
+2026-05-21T14:18:51,f959829c-8588-4c49-950a-870b9c473c1a,order-api,/order-history,POST,200,203,INFO,,order-api-pod-4,ap-south-1
+2026-05-22T21:02:04,1d302cb9-6974-47bf-9b13-e55559467f02,payment-api,/process-payment,POST,503,4229,CRITICAL,Service unavailable,payment-api-pod-4,us-east-1
+2026-05-20T18:04:44,d1bdfb9c-82d2-4414-bacf-5d7706ec95fa,cart-api,/get-cart,POST,200,56,INFO,,cart-api-pod-1,us-east-1
+2026-05-22T03:01:33,088fa896-4c22-4bfe-91b7-51b3a1384290,auth-api,/validate-token,GET,200,133,INFO,,auth-api-pod-5,ap-south-1
+2026-05-21T10:45:12,841957ae-75b2-4a6a-959c-dabd22fe8d80,cart-api,/get-cart,POST,200,117,INFO,,cart-api-pod-3,us-east-1
+2026-05-21T22:32:43,cc5902db-d997-4745-a67b-f12a8b577ac6,auth-api,/login,GET,200,229,INFO,,auth-api-pod-5,ap-south-1
+2026-05-18T00:14:06,3bc0e3b2-9bb2-46f3-aeef-d31748cddf5c,order-api,/order-history,POST,503,2224,CRITICAL,Server overloaded,order-api-pod-5,us-east-1
+2026-05-18T03:14:49,197458df-360e-4235-b24a-72116e891806,cart-api,/get-cart,GET,401,200,WARN,Invalid authentication token,cart-api-pod-5,us-east-1
+2026-05-19T01:35:14,181bbee4-c3c5-431e-a81f-91088bdeb29b,product-api,/search,GET,200,76,INFO,,product-api-pod-4,us-east-1
+2026-05-23T00:45:32,4d347501-74f8-4e2e-abc4-84c1f75d1fa8,product-api,/search,GET,200,167,INFO,,product-api-pod-3,us-east-1
+2026-05-18T02:04:16,bd229188-dc52-49f6-a33a-121d64bc8b28,order-api,/create-order,GET,200,80,INFO,,order-api-pod-4,us-east-1
+2026-05-21T22:03:23,eda75073-2997-4af0-aa4c-10f73f86de7e,cart-api,/get-cart,POST,200,61,INFO,,cart-api-pod-5,ap-south-1
+2026-05-19T16:21:47,d091fd82-2282-438b-b419-0d4e93ce48cf,cart-api,/remove-cart,POST,200,202,INFO,,cart-api-pod-1,ap-south-1
+2026-05-21T22:22:54,bed6ed63-86d4-4eb3-a7fb-a9561a6c449e,order-api,/create-order,GET,200,79,INFO,,order-api-pod-1,eu-west-1
+2026-05-20T06:33:06,dc96b6c6-f16d-4ee6-baa3-61353b10decb,auth-api,/validate-token,GET,200,132,INFO,,auth-api-pod-1,us-east-1
+2026-05-19T05:35:38,29de71d6-d4c3-4455-a787-db66443be9ca,order-api,/order-history,GET,200,93,INFO,,order-api-pod-3,eu-west-1
+2026-05-18T22:05:52,841c5bdf-5c70-4119-9f66-be8897c0506b,product-api,/search,POST,200,228,INFO,,product-api-pod-4,ap-south-1
+2026-05-23T16:35:40,0cf4c94d-8bc7-4b89-84a4-d89690ee4da2,auth-api,/login,GET,200,69,INFO,,auth-api-pod-4,ap-south-1
+2026-05-20T07:31:50,575b0062-c512-4032-866e-dec113e0ab31,cart-api,/add-cart,GET,500,1694,ERROR,Application crash detected,cart-api-pod-4,ap-south-1
+2026-05-20T02:57:45,81ff09cb-7258-4329-bef3-9e88808ee528,cart-api,/add-cart,GET,200,151,INFO,,cart-api-pod-1,ap-south-1
+2026-05-18T12:32:06,3edbdb00-00dc-4b8c-9542-5d290a068bf3,auth-api,/validate-token,GET,429,656,WARN,Rate limit exceeded,auth-api-pod-3,eu-west-1
+2026-05-19T20:01:17,69b708a7-a0f1-41b5-b634-a7f3e1f6fa38,cart-api,/remove-cart,GET,200,248,INFO,,cart-api-pod-5,us-east-1
+2026-05-22T00:30:07,1bd8b60a-196e-46e2-bbe3-b708f137d637,cart-api,/add-cart,GET,201,134,INFO,,cart-api-pod-1,eu-west-1
+2026-05-18T23:31:42,c28aecee-3a3a-410c-ab37-c684fab69d9b,payment-api,/process-payment,GET,200,147,INFO,,payment-api-pod-4,ap-south-1
+2026-05-20T18:20:17,697bf81b-e1e4-4cb5-8988-a4d0be636357,order-api,/create-order,POST,200,233,INFO,,order-api-pod-1,eu-west-1
+2026-05-17T20:32:45,9c984435-9584-4b8f-9c39-f314a425d3ba,payment-api,/process-payment,POST,201,165,INFO,,payment-api-pod-4,us-east-1
+2026-05-23T19:24:33,7e6ee462-a703-4560-a495-b9cd41907ae2,auth-api,/logout,GET,200,250,INFO,,auth-api-pod-1,eu-west-1
+2026-05-21T06:59:10,b4c4f5cb-4b1a-4f87-aa80-dc45233a6f8c,product-api,/product/{id},POST,200,97,INFO,,product-api-pod-3,us-east-1
+2026-05-21T13:13:18,974c4588-d8b9-4f6f-802e-68b23ae24f9b,payment-api,/payment-status,POST,200,97,INFO,,payment-api-pod-5,eu-west-1
+2026-05-23T18:33:51,c82f5721-90e7-4ef9-a83d-7ce8e9baceb6,auth-api,/login,GET,200,195,INFO,,auth-api-pod-1,ap-south-1
+2026-05-20T14:39:59,2f3b5676-5328-4b4c-8cb3-9cedc0d47d03,product-api,/search,POST,403,249,WARN,Insufficient permissions,product-api-pod-3,ap-south-1
+2026-05-22T08:10:54,6fb885db-fca6-413c-8be5-34f4af30c1ff,product-api,/product/{id},POST,200,57,INFO,,product-api-pod-3,ap-south-1
+2026-05-20T07:05:56,0da7c05c-129e-4237-81e6-95d5685288e8,order-api,/create-order,POST,200,240,INFO,,order-api-pod-2,eu-west-1
+2026-05-21T22:04:10,50ef1f0e-5334-47c0-8c2d-7baaa93d200a,payment-api,/process-payment,POST,200,241,INFO,,payment-api-pod-5,ap-south-1
+2026-05-23T16:08:30,2e1c03f8-0483-4533-8b0b-54a6e0ba6f4c,cart-api,/add-cart,GET,200,76,INFO,,cart-api-pod-1,ap-south-1
+2026-05-20T21:23:54,b01cd7de-8cc2-4d3b-9b2e-ff7d071f5d24,payment-api,/process-payment,GET,200,227,INFO,,payment-api-pod-4,ap-south-1
+2026-05-18T04:50:35,268c7192-5eda-4518-87ca-d9d45a834bb9,product-api,/product/{id},GET,404,69,WARN,API endpoint does not exist,product-api-pod-3,ap-south-1
+2026-05-23T11:11:01,61218bf6-4fbb-482f-aef1-7f750c638c5c,product-api,/search,POST,401,193,WARN,Token expired,product-api-pod-4,ap-south-1
+2026-05-21T19:25:48,b3b700e5-9c66-4ae3-9034-35a0bf78e0f1,order-api,/order-history,GET,200,179,INFO,,order-api-pod-1,eu-west-1
+2026-05-21T02:35:06,30486080-8abb-45e5-aa88-f7393992c003,cart-api,/get-cart,POST,200,112,INFO,,cart-api-pod-1,us-east-1
+2026-05-24T02:50:24,8eb92075-740d-4461-9977-4294c9ff5612,cart-api,/add-cart,POST,200,59,INFO,,cart-api-pod-3,ap-south-1
+2026-05-20T08:52:15,bcccb1cc-9f97-4751-a524-148d02165b1d,product-api,/product/{id},POST,200,127,INFO,,product-api-pod-2,us-east-1
+2026-05-22T20:29:26,65f9bceb-68fb-430e-950f-778dc769f60f,product-api,/products,POST,200,124,INFO,,product-api-pod-3,us-east-1
+2026-05-21T21:10:50,62d4c10f-706c-48aa-8e08-fb4cecf34d60,order-api,/create-order,GET,200,205,INFO,,order-api-pod-3,ap-south-1
+2026-05-17T08:43:33,3c7820df-4265-431b-8e44-901719221440,product-api,/products,POST,200,211,INFO,,product-api-pod-3,ap-south-1
+2026-05-20T04:39:08,3255adef-bcbd-4da7-b6b0-1423ec4d7f8d,cart-api,/remove-cart,GET,200,243,INFO,,cart-api-pod-2,eu-west-1
+2026-05-22T23:52:56,2378c50b-0884-4401-a951-f726bb9b2c0a,payment-api,/process-payment,GET,200,69,INFO,,payment-api-pod-5,eu-west-1
+2026-05-20T05:03:22,9cd90395-74f9-4bd8-8eac-66018edaa08b,product-api,/products,POST,200,175,INFO,,product-api-pod-1,eu-west-1
+2026-05-17T23:53:56,ba9798c8-30c1-4c03-a589-8fd864026ecb,payment-api,/payment-status,POST,200,245,INFO,,payment-api-pod-2,ap-south-1
+2026-05-24T02:58:44,6c017aea-99e8-4ef4-aea1-654f3d0abb5b,auth-api,/validate-token,GET,200,77,INFO,,auth-api-pod-2,us-east-1
+2026-05-18T22:39:18,d5f7ed46-84f6-4589-9af9-0e0a56cfe00e,product-api,/search,POST,200,163,INFO,,product-api-pod-1,eu-west-1
+2026-05-23T16:30:01,d5447341-5bee-42a6-91f1-99ae033d5cd8,payment-api,/payment-status,POST,404,99,WARN,API endpoint does not exist,payment-api-pod-4,ap-south-1
+2026-05-22T10:22:26,2ebd9d52-b0f6-4feb-a571-e52d0eef9a67,auth-api,/login,GET,200,149,INFO,,auth-api-pod-4,ap-south-1
+2026-05-21T10:33:58,73669a1b-448b-4aad-9e9b-612b35f062ac,payment-api,/process-payment,POST,200,232,INFO,,payment-api-pod-5,us-east-1
+2026-05-20T09:45:02,3d2c442f-b2b0-4914-8cc3-3a0c7f22bfdc,auth-api,/validate-token,GET,200,148,INFO,,auth-api-pod-2,us-east-1
+2026-05-23T07:56:29,8fcaf001-ae7c-4f59-9208-9683f40c351f,cart-api,/get-cart,POST,200,155,INFO,,cart-api-pod-2,us-east-1
+2026-05-18T23:33:34,96b9b0b1-c621-41f1-b01e-f387189c18d4,payment-api,/payment-status,GET,200,153,INFO,,payment-api-pod-4,us-east-1
+2026-05-21T06:12:49,1cbd6341-6f49-4ace-8568-15915f226c72,product-api,/products,GET,200,226,INFO,,product-api-pod-3,us-east-1
+2026-05-18T20:11:16,610baf7a-035d-4b78-9519-23f7a17428e0,product-api,/search,GET,200,217,INFO,,product-api-pod-3,us-east-1
+2026-05-22T13:13:40,c7b47414-46a7-4061-aa5d-b6b9964cda13,auth-api,/validate-token,POST,200,200,INFO,,auth-api-pod-3,eu-west-1
+2026-05-19T16:18:42,00dd4805-6a79-429a-bc0f-da7b26a126ca,cart-api,/add-cart,GET,200,161,INFO,,cart-api-pod-2,eu-west-1
+2026-05-23T05:12:51,bf9ac1d0-5b86-4cb1-a102-1002ffb7fbdf,cart-api,/remove-cart,POST,200,107,INFO,,cart-api-pod-3,us-east-1
+2026-05-17T07:34:19,710af1b9-2352-4bb5-8b05-03f1af0b870d,product-api,/product/{id},GET,200,144,INFO,,product-api-pod-5,ap-south-1
+2026-05-20T08:58:57,b8661c8a-02db-4b69-9ba4-fa7ed7b7d625,cart-api,/add-cart,POST,200,198,INFO,,cart-api-pod-4,us-east-1
+2026-05-22T21:49:12,c847c400-32dd-4c99-ad65-567fa4f64abc,payment-api,/payment-status,GET,200,199,INFO,,payment-api-pod-3,us-east-1
+2026-05-23T11:15:52,cda536d0-2c0d-4016-b2c6-164f1f0e59bf,product-api,/products,GET,200,136,INFO,,product-api-pod-4,ap-south-1
+2026-05-23T15:22:39,426986e1-ae83-4977-bfb0-583ce6113bfa,product-api,/product/{id},POST,201,92,INFO,,product-api-pod-3,ap-south-1
+2026-05-20T05:57:46,0f02f980-207d-4902-af85-b181de197aa3,cart-api,/add-cart,GET,201,294,INFO,,cart-api-pod-5,us-east-1
+2026-05-18T18:23:06,a184f59c-cd1d-4882-bdfe-767759080ae8,auth-api,/validate-token,GET,200,157,INFO,,auth-api-pod-1,eu-west-1
+2026-05-18T10:38:24,21f8f75c-77a2-4372-a93d-e8ba1f11b246,cart-api,/remove-cart,GET,200,220,INFO,,cart-api-pod-2,eu-west-1
+2026-05-22T21:14:27,f946a603-b305-40e1-9622-2b3b0e277015,auth-api,/validate-token,POST,200,197,INFO,,auth-api-pod-2,ap-south-1
+2026-05-17T09:29:47,9831bbb6-56fe-4296-a6ad-cf77a2487023,auth-api,/validate-token,POST,200,159,INFO,,auth-api-pod-4,ap-south-1
+2026-05-19T20:42:28,89a2ee4f-e3b5-417e-b3a7-32b927a78fd3,payment-api,/payment-status,GET,200,96,INFO,,payment-api-pod-1,eu-west-1
+2026-05-21T08:06:01,a1efadb4-1bc7-484d-8b0b-f336203c0572,order-api,/order-history,GET,401,336,WARN,Invalid authentication token,order-api-pod-2,eu-west-1
+2026-05-20T23:16:01,2beb8af2-110c-4cdd-b1af-fe4d4267b48e,product-api,/product/{id},GET,200,240,INFO,,product-api-pod-1,ap-south-1
+2026-05-22T08:02:53,207894a3-bbcd-4d76-a0a0-914ba3ba047b,order-api,/order-history,POST,400,399,WARN,Malformed request body,order-api-pod-2,us-east-1
+2026-05-23T09:16:41,f72c1a55-1dc4-4036-920b-6bfd367ca3bb,order-api,/create-order,GET,200,198,INFO,,order-api-pod-4,ap-south-1
+2026-05-21T12:40:18,2ad4800c-6c84-4ede-bab4-3e01f4d0813a,payment-api,/payment-status,GET,504,5420,CRITICAL,Downstream service timeout,payment-api-pod-2,ap-south-1
+2026-05-20T20:10:17,800b05c7-db8a-45aa-9abd-1f565041e1a6,payment-api,/payment-status,POST,200,70,INFO,,payment-api-pod-5,ap-south-1
+2026-05-19T22:04:44,ea1f2895-a7bb-4ee5-a721-7674bd7ff4cd,cart-api,/get-cart,GET,500,1780,ERROR,Internal server error,cart-api-pod-5,us-east-1
+2026-05-20T08:42:08,e3b8a93f-7c24-4d92-913e-167da6c870ae,product-api,/product/{id},GET,200,100,INFO,,product-api-pod-4,eu-west-1
+2026-05-17T19:59:13,69289b9d-f6f5-45e5-9e9a-d4d66008cbee,order-api,/order-history,GET,500,1640,ERROR,Unexpected backend failure,order-api-pod-1,ap-south-1
+2026-05-19T06:50:10,854cb6bb-08ad-45ad-8ca0-0b6995890618,payment-api,/payment-status,POST,200,52,INFO,,payment-api-pod-5,us-east-1
+2026-05-23T00:19:55,8cb27176-16fd-43b3-a794-b11b1d7b6eeb,cart-api,/get-cart,GET,200,88,INFO,,cart-api-pod-5,eu-west-1
+2026-05-23T04:29:39,50d6cca1-2d60-415a-ba60-40e139fb7035,payment-api,/payment-status,POST,200,128,INFO,,payment-api-pod-2,eu-west-1
+2026-05-18T09:45:30,09e8175c-810c-438b-be29-34b494b707d8,payment-api,/payment-status,GET,200,65,INFO,,payment-api-pod-4,us-east-1
+2026-05-17T23:06:27,42d11ec0-2c25-4a34-ae9d-12fc4cd98005,payment-api,/process-payment,GET,429,543,WARN,Request throttled,payment-api-pod-2,us-east-1
+2026-05-24T05:37:08,1948570a-0d0a-4d53-899f-9e2b4ffaaba5,order-api,/create-order,GET,200,100,INFO,,order-api-pod-1,ap-south-1
+2026-05-22T16:15:00,4f529573-bdf1-488c-975a-63fcc7b8e53d,product-api,/search,GET,200,61,INFO,,product-api-pod-5,ap-south-1
+2026-05-20T10:36:37,14c2b795-2761-4e3c-8ac6-5031fda905cf,payment-api,/payment-status,GET,200,148,INFO,,payment-api-pod-4,ap-south-1
+2026-05-23T10:17:32,ef33caaa-7a93-4b0e-b4df-7a02e7981667,payment-api,/process-payment,POST,200,127,INFO,,payment-api-pod-4,us-east-1
+2026-05-23T02:33:53,763a9bfa-6655-44db-bb2c-f5f21ea0b724,payment-api,/process-payment,GET,200,242,INFO,,payment-api-pod-5,ap-south-1
+2026-05-20T16:19:36,aa337d28-8233-4eca-a94c-d521ca55f68c,auth-api,/logout,POST,200,222,INFO,,auth-api-pod-4,ap-south-1
+2026-05-19T22:27:58,f9f4722b-9e74-4353-a08f-8b4248c6882b,product-api,/search,GET,200,246,INFO,,product-api-pod-5,eu-west-1
+2026-05-20T16:34:29,d24b096b-5462-4adb-b5a2-1863e4408417,product-api,/search,POST,200,137,INFO,,product-api-pod-3,us-east-1
+2026-05-22T06:40:11,ab19c94f-5d3b-4eeb-89ae-4d5a66561f1d,product-api,/product/{id},GET,200,87,INFO,,product-api-pod-1,us-east-1
+2026-05-19T05:31:32,91de2a48-3c2a-43e8-87fa-bde4548abd4a,cart-api,/add-cart,GET,200,138,INFO,,cart-api-pod-3,ap-south-1
+2026-05-18T19:54:35,91844dcd-c4c8-4bf1-b1c0-c19e77db757d,auth-api,/validate-token,POST,200,176,INFO,,auth-api-pod-3,us-east-1
+2026-05-21T20:44:04,347f1000-ba7b-4428-a856-66b6aaba80d0,cart-api,/remove-cart,POST,200,63,INFO,,cart-api-pod-3,eu-west-1
+2026-05-22T10:06:28,b98f0575-8048-425c-ae75-28f502bdab3f,order-api,/order-history,GET,200,162,INFO,,order-api-pod-2,eu-west-1
+2026-05-21T11:11:05,5d14fed8-9c8a-4420-8c3e-6b2eef693326,auth-api,/validate-token,POST,200,111,INFO,,auth-api-pod-5,ap-south-1
+2026-05-21T02:08:10,b3a29468-38ed-4c79-831d-b6f8f1341477,cart-api,/add-cart,POST,200,72,INFO,,cart-api-pod-4,us-east-1
+2026-05-22T01:24:57,0be7c6b2-ee15-4258-adee-f21a3969520b,auth-api,/validate-token,GET,200,66,INFO,,auth-api-pod-2,us-east-1
+2026-05-21T19:46:55,7329553e-7d29-4750-8b8e-72cb30168147,payment-api,/payment-status,GET,200,236,INFO,,payment-api-pod-4,eu-west-1
+2026-05-21T05:26:39,7a99e469-03b1-4245-a752-80040f9b1700,payment-api,/payment-status,GET,201,115,INFO,,payment-api-pod-3,us-east-1
+2026-05-20T10:30:45,b380da34-6e1a-4a90-810f-81ddad142aef,product-api,/search,POST,200,250,INFO,,product-api-pod-4,eu-west-1
+2026-05-17T17:13:29,55eb4eb5-a431-4d6d-b5eb-4b4acf6469d4,order-api,/create-order,GET,200,93,INFO,,order-api-pod-5,eu-west-1
+2026-05-19T06:00:48,5ec796fb-5c4c-4848-afc8-dec1052303de,cart-api,/get-cart,GET,201,132,INFO,,cart-api-pod-3,us-east-1
+2026-05-21T11:09:42,592a6f48-80df-442e-ae5b-beb905f466fc,product-api,/search,POST,200,165,INFO,,product-api-pod-3,ap-south-1
+2026-05-18T06:28:03,2b69b500-c676-4d0d-a3de-8cddd2054bc7,product-api,/search,GET,200,131,INFO,,product-api-pod-5,ap-south-1
+2026-05-21T07:19:22,182f8228-4082-420b-a384-687080e36dbc,order-api,/order-history,POST,404,77,WARN,API endpoint does not exist,order-api-pod-3,us-east-1
+2026-05-20T04:06:41,2b2aa3ba-d776-44c9-bdb4-4e80cb945a51,payment-api,/process-payment,POST,200,241,INFO,,payment-api-pod-3,us-east-1
+2026-05-20T07:47:08,ead8add6-bd85-408d-a8b9-714ea3bb2492,cart-api,/get-cart,GET,503,2386,CRITICAL,Server overloaded,cart-api-pod-2,eu-west-1
+2026-05-18T04:28:34,e9ed2402-be1c-4abd-bd70-b4aef87c1a3c,product-api,/search,POST,403,393,WARN,Insufficient permissions,product-api-pod-1,ap-south-1
+2026-05-22T11:18:20,5ec4c33f-c945-4ce0-85d4-222020ac618a,auth-api,/login,POST,201,171,INFO,,auth-api-pod-3,ap-south-1
+2026-05-17T11:56:57,82db0079-b85c-4276-a44f-9234eaa61988,payment-api,/payment-status,POST,200,226,INFO,,payment-api-pod-3,eu-west-1
+2026-05-21T15:43:01,df0f2b6c-499d-4859-8bcb-58b227fe5b54,order-api,/order-history,GET,504,3636,CRITICAL,Downstream service timeout,order-api-pod-4,ap-south-1
+2026-05-20T15:40:17,e280a74d-0d52-4275-865c-a0166b7615aa,product-api,/search,GET,200,208,INFO,,product-api-pod-3,us-east-1
+2026-05-23T18:06:23,710dfa26-dc4a-4042-ab19-b3635e604fa8,cart-api,/remove-cart,POST,200,61,INFO,,cart-api-pod-5,ap-south-1
+2026-05-18T00:50:32,6c575ab3-35f7-4942-b13f-6c229b9ae1f2,order-api,/order-history,POST,200,140,INFO,,order-api-pod-3,ap-south-1
+2026-05-23T15:12:28,46a7fd70-9b75-4759-b088-224609ff70e2,order-api,/create-order,GET,201,181,INFO,,order-api-pod-4,eu-west-1
+2026-05-19T16:37:32,c5a138fe-a47e-42ac-b224-26166f10c73b,product-api,/products,GET,200,205,INFO,,product-api-pod-4,eu-west-1
+2026-05-20T10:33:50,1a8c3083-6b2e-4114-aec6-e78d403fe339,payment-api,/payment-status,POST,200,57,INFO,,payment-api-pod-2,us-east-1
+2026-05-22T03:20:23,6e0bc510-69e2-4228-8ade-6eb39ee1707c,cart-api,/add-cart,GET,200,197,INFO,,cart-api-pod-2,us-east-1
+2026-05-18T10:31:00,e8b5db72-c611-4492-8643-e9b5acae4859,payment-api,/process-payment,POST,200,240,INFO,,payment-api-pod-2,ap-south-1
+2026-05-23T16:56:36,0b09cc02-14fd-4eb7-afab-44f34a4406d9,order-api,/create-order,GET,201,140,INFO,,order-api-pod-2,eu-west-1
+2026-05-18T03:30:43,95f35ce5-2971-47b5-b16c-4dde27d12e5e,payment-api,/process-payment,POST,200,186,INFO,,payment-api-pod-4,us-east-1
+2026-05-17T16:31:04,fa1b478b-8da2-4519-a386-e8086569f3e4,payment-api,/process-payment,GET,200,215,INFO,,payment-api-pod-1,eu-west-1
+2026-05-17T20:48:35,bc27b66b-b296-405f-a38a-7775062e7a30,cart-api,/add-cart,GET,200,53,INFO,,cart-api-pod-5,us-east-1
+2026-05-18T09:12:47,4eedc28d-b656-4fba-a1c4-bb60e9986f8c,product-api,/product/{id},POST,200,85,INFO,,product-api-pod-2,eu-west-1
+2026-05-22T17:36:01,d8779ccf-e1ab-4a19-bce1-d477d1f2c0c7,auth-api,/logout,POST,500,3113,ERROR,Unexpected backend failure,auth-api-pod-5,ap-south-1
+2026-05-17T16:05:58,735cf3be-cca9-4600-aeee-65b5ac2e474f,order-api,/order-history,GET,200,182,INFO,,order-api-pod-5,us-east-1
+2026-05-23T05:15:59,a8553d62-c18b-40ad-83b4-6ebe72164b67,product-api,/products,GET,200,107,INFO,,product-api-pod-4,us-east-1
+2026-05-23T12:09:42,6c654d6f-e67c-47c3-b1ee-522a9e1beef0,cart-api,/remove-cart,GET,200,76,INFO,,cart-api-pod-1,eu-west-1
+2026-05-20T22:59:56,16aea70d-9cb4-41b1-bd32-a2e5e1169e4e,auth-api,/login,GET,200,164,INFO,,auth-api-pod-2,us-east-1
+2026-05-21T06:33:03,94dcad20-439e-4cf9-af5f-42b2e0eb7451,payment-api,/payment-status,GET,200,195,INFO,,payment-api-pod-2,eu-west-1
+2026-05-22T23:17:08,db92c5ba-85b6-48dc-ae81-3012618f830e,payment-api,/process-payment,POST,500,2195,ERROR,Unexpected backend failure,payment-api-pod-1,us-east-1
+2026-05-22T13:44:18,0102f986-b54f-40f5-867b-9dcd5c5c681b,payment-api,/process-payment,GET,200,59,INFO,,payment-api-pod-1,us-east-1
+2026-05-20T21:46:36,84c3b5c5-f140-42e8-a66f-a9bdb52a1011,auth-api,/login,POST,200,84,INFO,,auth-api-pod-2,us-east-1
+2026-05-17T14:42:08,5e6f94f8-e17f-4f02-9803-fd8b657f58cb,order-api,/create-order,GET,200,188,INFO,,order-api-pod-4,us-east-1
+2026-05-21T16:08:57,462fbd55-8687-4e97-bb56-38717a902903,payment-api,/payment-status,POST,200,83,INFO,,payment-api-pod-1,eu-west-1
+2026-05-21T07:30:32,2e1ee4b4-7fed-45ba-9f83-ee345f46a962,payment-api,/payment-status,POST,429,926,WARN,Request throttled,payment-api-pod-3,eu-west-1
+2026-05-20T19:27:01,110e890d-7f2a-4ca3-9556-9de68a998fd3,order-api,/create-order,POST,403,389,WARN,Access forbidden,order-api-pod-4,us-east-1
+2026-05-22T21:36:21,74f15e23-0829-47ec-abcc-dbb1e2342ada,cart-api,/add-cart,POST,200,82,INFO,,cart-api-pod-4,us-east-1
+2026-05-17T10:21:15,de87c96a-4632-4cca-a220-6e86c93e810a,auth-api,/logout,GET,201,194,INFO,,auth-api-pod-3,ap-south-1
+2026-05-20T13:38:37,c8ee7ba6-09f7-4f18-8b42-dc983d3ef202,order-api,/create-order,POST,200,54,INFO,,order-api-pod-1,us-east-1
+2026-05-22T08:24:14,a5a7f617-048f-484a-826e-dc814d5fc084,auth-api,/logout,POST,200,122,INFO,,auth-api-pod-5,ap-south-1
+2026-05-20T23:03:29,454c327f-d930-4bcc-a04f-38008933a29c,payment-api,/process-payment,POST,200,236,INFO,,payment-api-pod-4,us-east-1
+2026-05-19T06:03:24,d0364744-b12a-4ebf-8f60-e25969d074b5,order-api,/order-history,POST,200,193,INFO,,order-api-pod-4,eu-west-1
+2026-05-22T15:10:21,3c9826ff-f100-4f6e-b3cb-0d59cb7fde30,order-api,/order-history,POST,500,1618,ERROR,Internal server error,order-api-pod-1,ap-south-1
+2026-05-20T19:41:12,10a7a8a2-6f63-4f17-864d-47ef70ff0ee8,payment-api,/payment-status,GET,200,192,INFO,,payment-api-pod-3,us-east-1
+2026-05-20T11:39:00,b708c85a-293c-497c-b8ff-f9ec1dda83eb,cart-api,/get-cart,POST,200,245,INFO,,cart-api-pod-5,ap-south-1
