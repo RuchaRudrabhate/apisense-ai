@@ -41,9 +41,10 @@ for _ in range(LOG_COUNT):
     logs.append(log)
 
 
-#Save logs as JSON
+#Save logs as newline-delimited JSON as this will be supported json structure for spark
 with open("datasets/logs.json","w") as file:
-    json.dump(logs,file,indent=4)
+    for log in logs:
+        file.write(json.dumps(log)+"\n")
 
 #Export as CSV
 df = pd.DataFrame(logs)
