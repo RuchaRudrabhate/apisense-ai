@@ -1,6 +1,6 @@
 from pyspark.sql.functions import (col, to_timestamp)
-from spark_session import SparkSessionManager
-from aggregation import AggregationEngine
+from pyspark_jobs.spark_session import SparkSessionManager
+from pyspark_jobs.aggregation import AggregationEngine
 
 class LogParser:
     def __init__(self):
